@@ -127,6 +127,7 @@ jobs:
               uses: Sjj1024/tauri-zhaction@tauri-zhaciton
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  TAURI_UPDATER_ACTIVE: "false"
                   NAME: ${{ env.NAME }}
                   VERSION: ${{ env.VERSION }}
                   PUBBODY: ${{ env.PUBBODY }}
