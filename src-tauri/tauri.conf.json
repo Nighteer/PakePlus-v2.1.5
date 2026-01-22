@@ -30,5 +30,10 @@
             "icons/icon.icns",
             "icons/icon.ico"
         ]
+    },
+    "windows": {
+        "nsis": {
+            "installerIcon": "icons/installer.ico"
+        }
     }
 }
